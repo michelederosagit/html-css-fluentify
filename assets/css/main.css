@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: pink; */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ---------- CONTAINER ---------- */
+#container {
+  width: 100%;
+  /* background-color: #0d325a; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- CLASSI CLEARFLIX ---------- */
+.top-nav-bar::after , .firstS-float::after  {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ---------- HEADER + TOPBAR + LOGO ---------- */
+header {
+  background-color: #0d325a;
+  width: 100%;
+  /* border: 2px solid #fff; */
+  height: 100%;
+  padding-top: 20px;
+}
+
+.top-nav-bar {
+  width: 80%;
+  margin: auto;
+}
+
+.logo {
+  float: left;
+  margin-right: 40px;
+}
+
+/* Sezione menù di sinistra */
+.left-top-bar {
+  padding-top: 15px;
+}
+
+.left-link {
+  float: left;
+}
+
+.left-link a, .right-link a, .plan-structure a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8em;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.left-link > a {
+  padding-right: 10px;
+}
+
+/* Sezione menù di destra */
+.right-link {
+  float: right;
+}
+
+.right-link a {
+  color: white;
+  margin-right: 8px;
+}
+
+.btn-blue-nav {
+    border: 1px solid #4e8cb6;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    min-width: 182px;
+    letter-spacing: .0182em;
+}
+
+.btn-green-nav {
+    background-color: #7fb802;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 5px;
+    min-width: 182px;
+    letter-spacing: .0182em;
+}
+
+/* ---------- FINE - HEADER ---------- */
+
+/* ---------- SEZIONE TOP ---------- */
+.top-section-wrapper {
+  background-color: #0D325A;
+  height: 440px;
+  background-image: url("../img/oldman.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.top-section {
+  width: 45%;
+  padding: 150px 0 0 150px;
+}
+.top-section h1 {
+  color: white;
+}
+.plan-structure {
+  margin-top: 30px;
+}
+
+.btn-green {
+    background-color: #7fb802;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 182px;
+    letter-spacing: .0182em;
+}
+
+/* ---------- FINE - SEZIONE TOP ---------- */
+
+/* ----------  BLOCCO CENTRALE ---------- */
+.center-block {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 40px 20px 40px 20px;
+  margin: 0;
+}
+
+.center-block h4 {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.center-block p {
+  color: #999;
+  font-size: 18px;
+}
+/* ----------  FINE - BLOCCO CENTRALE ---------- */
+
+
+/* ----------  SEZIONE GENERALE ---------- */
+.section-wrapper {
+  margin: auto;
+  height: 100%;
+}
+.section-bottom-bar {
+  width: 98%;
+  border-bottom: 1px solid black;
+}
+/* ----------  FINE - SEZIONE GENERALE ---------- */
+
+
+/* ----------  SEZIONE N1 ---------- */
+.firstS-float {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.firstS-column {
+  width: 28%;
+  float: left;
+}
+
+.img-column1 {
+  height: 160px;
+  margin-bottom: 50px;
+}
+
+.firstS-column > h3 {
+  color: #7fb802;
+  min-height: 50px;
+}
+
+.firstS-column hr {
+  width: 32px;
+  display: inline-block;
+  border: 1px solid #c4c4c5;
+}
+/* Colonna Centrale */
+.column-center {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.firstS-column p {
+  color: #999;
+  font-size: 15px;
+}
+/* ----------  FINE - SEZIONE N1 ---------- */
